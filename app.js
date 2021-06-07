@@ -29,17 +29,14 @@ function setImage() {
     hour = date.getHours();
   if (hour < 12) {
     document.body.style.backgroundImage = "url('./styles/morning.jpg')";
-    message.textContent =
-      "The best preparation for tomorrow is doing your best today";
+    message.textContent = `" The best preparation for tomorrow is doing your best today "`;
     message.style.color = "black";
   } else if (hour < 18) {
     document.body.style.backgroundImage = "url('./styles/afternoon.jpg')";
-    message.textContent =
-      "The afternoon knows what the morning never suspected";
+    message.textContent = `" The afternoon knows what the morning never suspected "`;
   } else {
-    document.body.style.backgroundImage = "url('./styles/night2.jpg')";
-    message.textContent =
-      "Those who dream by day are cognizant of many things which escape those who dream only by night";
+    document.body.style.backgroundImage = "url('./styles/night2-min.jpg')";
+    message.textContent = `" Those who dream by day are cognizant of many things which escape those who dream only by night "`;
   }
 }
 
